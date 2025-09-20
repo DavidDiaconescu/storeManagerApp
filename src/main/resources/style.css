@@ -1,0 +1,104 @@
+/* Fundal principal */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f0f4f8, #d9e2ec);
+    -fx-padding: 20;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Etichete */
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+/* ListView styling */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 4, 0, 0, 2);
+}
+
+.list-cell {
+    -fx-font-size: 14px;
+    -fx-padding: 6 10;
+}
+
+/* Hover efect pe celulă */
+.list-cell:hover {
+    -fx-background-color: #eef6fb;
+}
+
+/* Efect selecție */
+.list-cell:filled:selected, .list-cell:filled:selected:hover {
+    -fx-background-color: #2a9d8f;
+    -fx-text-fill: white;
+}
+
+/* Butoane */
+.button {
+    -fx-background-color: #0077cc;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-padding: 8 15;
+}
+
+.button:hover {
+    -fx-background-color: #005fa3;
+}
+
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #e8f0fe, #ffffff);
+    -fx-padding: 20;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 8 15;
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.text-field,
+.password-field {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+    -fx-border-color: #ccc;
+    -fx-padding: 5 10;
+}
+
+.list-view {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #cfcfcf;
+    -fx-border-width: 1px;
+}
+
+.list-cell {
+    -fx-padding: 8 12;
+    -fx-background-color: transparent;
+}
+
+.list-cell:filled:selected, .list-cell:focused:selected {
+    -fx-background-color: #cce5ff;
+    -fx-text-fill: black;
+}
